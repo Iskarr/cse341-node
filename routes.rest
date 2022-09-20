@@ -1,0 +1,10 @@
+# LOCALHOST
+
+### Get all Contacts
+GET http://localhost:3000/contacts
+### Get One Contact 1
+ GET http://localhost:3000/contacts/6328ad0765145ebbda925b4d
+### Get Contact 2
+GET http://localhost:3000/contacts/6328ae2565145ebbda925b4e
+### Get Contact 3
+GET http://localhost:3000/contacts/6328ae4065145ebbda925b4f
