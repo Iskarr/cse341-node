@@ -1,12 +1,13 @@
 const express = require("express");
-const app = express();
-const PORT = process.env.PORT || 3000;
-const MongoClient = require("mongodb").MongoClient;
+// const MongoClient = require("mongodb").MongoClient;
 const mongodb = require("./db/connect");
 // const router = require("./routes");
-const contacts = require("./routes/contacts");
-app.use("/", require("./routes"));
-app.use("/contacts", contacts);
+// const contacts = require("./routes/contacts");
+// app.use("/", require("./routes"));
+// app.use("/contacts", contacts);
+
+const PORT = process.env.PORT || 3000;
+const app = express();
 
 app
   .use(express.json())
