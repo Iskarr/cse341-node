@@ -54,3 +54,29 @@ GET https://contact-app.onrender.com/contacts/6328ae2565145ebbda925b4e
 GET https://contact-app.onrender.com/contacts/6328ae4065145ebbda925b4f
 
 ### Create, Read, Update, Delete via Render
+### POST contact via render
+POST https://contact-app.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "weile",
+    "lastName": "Weaver",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "06/19/2000"
+}
+
+### Update contact via render
+PUT https://contact-app.onrender.com/contacts/6328ad0765145ebbda925b4d HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "test@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "12/12/20"
+}
+
+### DELETE contact 
+DELETE https://contact-app.onrender.com/contacts/6332097ceb221e6e7bfaa687 HTTP/1.1
