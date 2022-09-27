@@ -1,18 +1,15 @@
 const mongodb = require("../db/connect");
 const ObjectId = require("mongodb").ObjectId;
-const Contact = require("../model/Contact");
 
 // CREATE contact
 const createContact = async (req, res) => {
-  // const contact = {
-  //   firstName: req.body.firstName,
-  //   lastName: req.body.lastName,
-  //   email: req.body.email,
-  //   favoriteColor: req.body.favoriteColor,
-  //   birthday: req.body.birthday,
-  // };
-  const body = req.body;
-  const contact = new Contact(body);
+  const contact = {
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
+    email: req.body.email,
+    favoriteColor: req.body.favoriteColor,
+    birthday: req.body.birthday,
+  };
 
   const response = await mongodb
     .getDb()
