@@ -20,23 +20,23 @@ POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "weile",
-    "lastName": "Weaver",
-    "email": "aWeaver@test.com",
+    "firstName": "Paul",
+    "lastName": "Walker",
+    "email": "pwalker@test.com",
     "favoriteColor": "Brown",
-    "birthday": "06/19/2000"
+    "birthday": "06/19/1985"
 }
 
 ### PUT contact 
-PUT http://localhost:3000/contacts/6328ad0765145ebbda925b4d HTTP/1.1
+PUT http://localhost:3000/contacts/633af43b89a75fef36add792 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Sarah",
-    "lastName": "Birch",
-    "email": "test@gmail.com",
-    "favoriteColor": "Green",
-    "birthday": "12/12/20"
+    "firstName": "Paul",
+    "lastName": "Walker",
+    "email": "pwalker@gmail.com",
+    "favoriteColor": "Brown",
+    "birthday": "12/12/85"
 }
 
 
