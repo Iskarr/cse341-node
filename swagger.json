@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "host": "https://contact-app.onrender.com",
-  "basePath": "/contacts",
+  "basePath": "/",
   "schemes": ["http"],
   "paths": {
     "/contacts/": {
