@@ -7,12 +7,16 @@
   },
   "host": "https://contact-app.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": [
+    "http"
+  ],
   "paths": {
     "/contacts/": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [],
         "responses": {
           "200": {
@@ -46,6 +50,15 @@
                 },
                 "birthday": {
                   "example": "any"
+                },
+                "favoriteSport": {
+                  "example": "any"
+                },
+                "musicGenre": {
+                  "example": "any"
+                },
+                "currentCollege": {
+                  "example": "any"
                 }
               }
             }
@@ -64,7 +77,9 @@
     "/contacts/{id}": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -110,6 +125,15 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "favoriteSport": {
+                  "example": "any"
+                },
+                "musicGenre": {
+                  "example": "any"
+                },
+                "currentCollege": {
                   "example": "any"
                 }
               }

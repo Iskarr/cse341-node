@@ -69,19 +69,25 @@ content-type: application/json
     "lastName": "Weaver",
     "email": "aWeaver@test.com",
     "favoriteColor": "Brown",
-    "birthday": "06/19/2000"
+    "birthday": "06/19/2000",
+    "favoriteSport": "Bowling",
+    "musicGenre": "Country",
+    "currentCollege": "BYU"
 }
 
 ### Update contact via render
-PUT https://contact-app.onrender.com/contacts/6328ad0765145ebbda925b4d HTTP/1.1
+PUT https://contact-app.onrender.com/contacts/633e5d610ca9dbdf4312807d HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Sarah",
-    "lastName": "Birch",
-    "email": "test@gmail.com",
-    "favoriteColor": "Green",
-    "birthday": "12/12/20"
+    "firstName": "Juice",
+    "lastName": "Wrld",
+    "email": "Juice@gmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "9/9/99",
+    "favoriteSport": "Basketball",
+    "musicGenre": "Rap",
+    "currentCollege": "BYU"
 }
 
 ### DELETE contact 
