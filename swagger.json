@@ -5,10 +5,10 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "contact-app-ohio.onrender.com",
+  "host": "contact-app.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/contacts/": {
