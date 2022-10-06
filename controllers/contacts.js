@@ -10,6 +10,9 @@ const createContact = async (req, res) => {
       email: req.body.email,
       favoriteColor: req.body.favoriteColor,
       birthday: req.body.birthday,
+      favoriteSport: req.body.favoriteSport,
+      musicGenre: req.body.musicGenre,
+      currentCollege: req.body.currentCollege,
     };
 
     const response = await mongodb
@@ -42,6 +45,9 @@ const updateContact = async (req, res) => {
       email: req.body.email,
       favoriteColor: req.body.favoriteColor,
       birthday: req.body.birthday,
+      favoriteSport: req.body.favoriteSport,
+      musicGenre: req.body.musicGenre,
+      currentCollege: req.body.currentCollege,
     };
 
     const response = await mongodb

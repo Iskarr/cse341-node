@@ -22,6 +22,18 @@ const ContactSchema = new Schema({
     type: String,
     required: true,
   },
+  favoriteSport: {
+    type: String,
+    required: true,
+  },
+  musicGenre: {
+    type: String,
+    required: true,
+  },
+  currentCollege: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("contacts", ContactSchema);

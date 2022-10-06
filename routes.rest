@@ -24,11 +24,14 @@ content-type: application/json
     "lastName": "Walker",
     "email": "pwalker@test.com",
     "favoriteColor": "Brown",
-    "birthday": "06/19/1985"
+    "birthday": "06/19/1985",
+    "favoriteSport": "Bowling",
+    "musicGenre": "Country",
+    "currentCollege": "BYU"
 }
 
 ### PUT contact 
-PUT http://localhost:3000/contacts/633af43b89a75fef36add792 HTTP/1.1
+PUT http://localhost:3000/contacts/633e5579b2f8a9d3830f93d2 HTTP/1.1
 content-type: application/json
 
 {
@@ -36,7 +39,10 @@ content-type: application/json
     "lastName": "Walker",
     "email": "pwalker@gmail.com",
     "favoriteColor": "Brown",
-    "birthday": "12/12/85"
+    "birthday": "12/12/85",
+    "favoriteSport": "Fishing",
+    "musicGenre": "Country",
+    "currentCollege": "BYU"
 }
 
 
