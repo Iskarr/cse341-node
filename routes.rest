@@ -31,18 +31,18 @@ content-type: application/json
 }
 
 ### PUT contact 
-PUT http://localhost:3000/contacts/633e5579b2f8a9d3830f93d2 HTTP/1.1
+PUT http://localhost:3000/contacts/6328ad0765145ebbda925b4d HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Paul",
-    "lastName": "Walker",
-    "email": "pwalker@gmail.com",
-    "favoriteColor": "Brown",
-    "birthday": "12/12/85",
-    "favoriteSport": "Fishing",
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "test1@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "12/12/20",
+    "favoriteColor": "Horse Riding",
     "musicGenre": "Country",
-    "currentCollege": "BYU"
+    "currentCollege": "BYU-Idaho"
 }
 
 
